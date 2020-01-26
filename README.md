@@ -5,7 +5,7 @@ This project was created by Rustam Botirov <rustambotirov88.gmail.com>
 
 Clone project:
 
-### `git clone https://github.com/rubot88/bookstore-react-redux.git`
+### `git clone https://github.com/rubot88/csv_loader-nodejs-express-artjoker.git`
 
 In the project directory, you can run:
 
