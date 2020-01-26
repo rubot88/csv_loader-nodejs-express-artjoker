@@ -10,8 +10,9 @@ const path = require('path');
 
 const User = require('../models/user');
 
-// define temporary directory for uploading CSV file
+// define temporary directory for uploading/downloading CSV files
 const upload = multer({ dest: 'tem/csv' });
+const download = multer({ dest: 'tem/exports' });
 
 const mapUsersList = ({ _id, UserName, FirstName, LastName, Age }) => {
     return {
@@ -24,7 +25,7 @@ const mapUsersList = ({ _id, UserName, FirstName, LastName, Age }) => {
     // return users.map(({ _id, UserName, FirstName, LastName, Age }) => ({ id: _id, UserName, FirstName, LastName, Age }))
 }
 
-router.get('/users', async (req, res) => {
+router.get('/users',download.none(), async (req, res) => {
     if (req.query.csv) {
         try {
             let users = await User.find();
