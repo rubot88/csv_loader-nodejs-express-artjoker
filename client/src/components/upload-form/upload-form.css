@@ -1,0 +1,22 @@
+.custom-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-input::before {
+    content: 'Select CSV file';
+    display: inline-block;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.custom-input:hover::before {
+    border-color: black;
+}
