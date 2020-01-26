@@ -5,7 +5,7 @@ This project was created by Rustam Botirov <rustambotirov88.gmail.com>
 
 Clone project:
 
-### 'git clone https://github.com/rubot88/bookstore-react-redux.git'
+### `git clone https://github.com/rubot88/bookstore-react-redux.git`
 
 In the project directory, you can run:
 
@@ -19,5 +19,10 @@ Go back to the project directory and run:
 
 ### `npm run dev`
 
-It will start both, server and client app
+It will run the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.
+
+
 
