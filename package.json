@@ -18,7 +18,7 @@
   "author": "Rustam Botirov <rustambotirov88@gamil.com>",
   "license": "ISC",
   "dependencies": {
-    "config": "^3.2.5",
+    "config": "^3.3.8",
     "csvtojson": "^2.0.10",
     "express": "^4.17.1",
     "fast-csv": "^4.0.2",
